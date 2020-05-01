@@ -1,0 +1,21 @@
+.list {
+  font-size: 17px;
+  text-align: center;
+}
+
+.head {
+  font-size: 25px;
+  text-align: center;
+}
+
+.collection {
+  font-size: 17px;
+  text-align: center;
+  padding: 3em 3em 3em 3em;
+
+}
+
+span {
+  display: block;
+  padding: 2em;
+}
