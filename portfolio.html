@@ -3,94 +3,111 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>portfolio</title>
+    <title>mk - portfolio</title>
     <meta name="description" content="matt koenig's portfolio and blog">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"></head>
 
 <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">matt koenig</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./about.html">about</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./readinglist.html">reading list</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/mattwbdv">github</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./referrals.html">products i love</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      resume
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="https://www.notion.so/Resume-Matt-Koenig-6ca6cd6ecc3e4b698d382478392bdcf7">paper resume</a>
+                      <a class="dropdown-item" href="https://www.linkedin.com/in/mattdkoenig/">linkedin</a>
+                      <a class="dropdown-item" href="./portfolio.html">portfolio</a>
+                      <a class="dropdown-item" href="https://codepen.io/mattwbdv">codepen</a>
+                  </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="d-flex flex-column">
+            <div class="d-flex justify-content-center">
+                <div class="d-flex align-items-center" style="margin-top: 2.5rem;">
+                    <h1>
+                        a small collection of my work
+                    </h1>
+                </div>
+            </div>
+        </div>
 
 
-    <h1 class="head">
-        matt koenig
-        <br>
-        software product manager
-        <br>
-        seattle
-    </h1>
+        <div class="card" style="margin: 2.5rem;">
+            <img class="card-img-top" src="newBEX.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Expedia Homepage Refresh</h5>
+              <p class="card-text">Led a 17-month technical program to refresh the Expedia homepage - a page that serves millions of users a day. This resulted in a 25% improvement in page performance and 6% improvement in user engagement</p>
+              <a href="oldBEX.png" class="btn btn-primary">See what it looked like before</a>
+            </div>
+          </div>
+          <div class="card" style="margin: 2.5rem;">
+            <img class="card-img-top" src="newSEO.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Expedia Search Landing Page Refresh</h5>
+              <p class="card-text">Led an 8-month technical program to refresh the Expedia search landing pages - a collection of pages that serve about a half a million users per day. This resulted in improved search result performance and customer engagement (3% improvement in engagement YoY)</p>
+              <a href="oldSEO.png" class="btn btn-primary">See what it looked like before</a>
+            </div>
+          </div>
+          <div class="card" style="margin: 2.5rem;">
+            <img class="card-img-top" src="face.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">FaceFinder Web App</h5>
+              <p class="card-text">As part of a React.js course, I created a FaceFinder web application. 
+                The app leverages the Clarifai API to detect and identify all faces in photographs uploaded by the user. 
+                The app then draws a box around each face. The app keeps a database of users, the number of photos they have uploaded, 
+                and their contact information along with secure (encrypted) credentials.</p>
+              <a href="https://brain-face-123.herokuapp.com/" class="btn btn-primary">See it live</a>
+            </div>
+          </div>
+          <div class="card" style="margin: 2.5rem;">
+            <img class="card-img-top" src="elder.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Elder Network</h5>
+              <p class="card-text">When the COVID-19 crisis hit, I wanted to try and support people feeling lonely in the community, 
+                so I built a small form and put it on a landing page to help people (particularly seniors) find a pen pal!</p>
+              <a href="https://senior-connector.herokuapp.com/" class="btn btn-primary">See it live</a>
+            </div>
+          </div>
 
-    <div class="list">
-        <a href="./about.html">about</a> |
-        <a href="https://www.notion.so/Resume-Matt-Koenig-6ca6cd6ecc3e4b698d382478392bdcf7">resume</a> |
-        <b><a href="./portfolio.html">portfolio</a></b> |
-        <a href="./readinglist.html">reading list</a> |
-        <a href="https://github.com/mattwbdv">github</a> |
-        <a href="https://www.linkedin.com/in/mattdkoenig/">linkedin</a> |
-        <a href="https://codepen.io/mattwbdv">codepen</a> |
-        <a href="./blog.html">blog</a> |
-        <a href="./referrals.html">products i love</a>
 
-    </div>
-
-    <div class="collection">
-        <span>
-            <b>Expedia Homepage Refresh</b> 
-            <br>
-            <a href="oldBEX.png">pre-refresh</a> |
-            <a href="newBEX.png">post-refresh</a>
-
-            <br>
-            Led a 17-month technical program to refresh the Expedia homepage - a page that serves millions of users a day. This resulted in a 25% improvement in page performance and 6% improvement in user success metrics and included:
-            <br>
-            • A technical migration to progressive web application (PWA) and GraphQL server-driven-UI architecture coupled with a homepage UI redesign
-            <br>
-            • An introduction of reinforcement learning to improve content sort across the new storefront
-            <br>
-            • Over 25 A/B tests to iteratively hone in on a winning experience
-        </span>
-
-        <span>
-            <b>Expedia Search Landing Page Refresh</b> 
-            <br>
-            <a href="oldSEO.png">pre-refresh</a> |
-            <a href="newSEO.png">post-refresh</a>
-
-            <br>
-            Led an 8-month technical program to refresh the Expedia search landing pages - a collection of pages that serve about a half a million users per day. This resulted in improved search result performance and customer engagement (3% improvement in engagement YoY) and included:            <br>
-            <br>
-            • A technical migration to progressive web application (PWA) and GraphQL server-driven-UI architecture coupled with a search landing page UI redesign
-            <br>
-            • An introduction of strategic SEO investments coupled with the move to "mobile-first indexing," by search engines
-            <br>
-            • Over 15 A/B tests to iteratively hone in on a winning experience
-        </span>
-
-        <span>
-        <b>FaceFinder Web App</b> 
-        <br>
-        <a href="https://brain-face-123.herokuapp.com/">live</a> |
-        <a href="https://github.com/mattwbdv/brainface">src</a>
-        <br>
-        As part of a React.js course, I created a FaceFinder web application. 
-        The app leverages the Clarifai API to detect and identify all faces in photographs uploaded by the user. 
-        The app then draws a box around each face. The app keeps a database of users, the number of photos they have uploaded, 
-        and their contact information along with secure (encrypted) credentials.
-    </span>
-
-        <span>
-        <b>Elder Network</b> 
-        <br>
-        <a href="https://senior-connector.herokuapp.com/">live</a> |
-        <a href="https://github.com/mattwbdv/senior-connector">src</a>
-        <br>
-        When the COVID-19 crisis hit, I wanted to try and support people feeling lonely in the community, 
-        so I built a small form and put it on a landing page to help people (particularly seniors) find a pen pal!
-    </span>
-    </div>
+        </div>
 
     <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""/></noscript>
+<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" /></noscript>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
